@@ -1,5 +1,5 @@
 import java.util.*;
-import java. lang. Math;
+import java.lang.Math;
 class change
 {
 public static void main(String arg[])
