@@ -8,19 +8,19 @@ Scanner sc=new Scanner(System.in);
 System.out.println("Enter n value");
 N=sc.nextInt();
 n=N;
-while(N!=0){
-rem=N%10;
+while(n!=0){
+rem=n%10;
 sum=sum+rem;
-N=N/10;
+n=n/10;
 }
 
 if(N%sum==0)
 {
-System.out.println(n+" Is harshed number");
+System.out.println(N+" Is harshed number");
 }
 else
 {
-System.out.println(n+" Is Not harshed number");
+System.out.println(N+" Is Not harshed number");
 }
 }
 }
